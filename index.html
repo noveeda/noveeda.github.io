@@ -1,13 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>최진영 포트폴리오</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Noveeda's Github Page</title>
   </head>
   <body>
-    <h1>test</h1>
-    <p>Hello World</p>
+    <header>
+      <h1><a href="/">최진영</a></h1>
+      <h5>백엔드 / Unity / 유저 친화적 개발자</h5>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#Stacks">Skill</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <nav>
+        <a href="https://github.com/noveeda" target="_blank">
+          <i class="fa-brands fa-github fa-2x"></i>
+        </a>
+      </nav>
+      <a href="#about" class="scroll-down">&#8595;</a>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          끈기 있게 문제를 해결하며, 효율성과 최적화를 중시하는 개발자 임우진입니다.
+          <br />
+          백엔드와 AI에 관심이 많고, 유저 친화적인 기능 구현을 위해 끊임없이 실험하며 성장하고
+          있습니다.
+        </p>
+      </div>
+    </section>
+
+    <section id="Stacks" class="bg-light">
+      <div class="container skills">
+        <h2>Skills</h2>
+        <div class="skill">
+          <h3>Tools</h3>
+          <hr />
+          <p align="left">
+            <a href="https://skillicons.dev">
+              <img src="https://skillicons.dev/icons?i=nodejs,spring,unity&theme=light" />
+            </a>
+          </p>
+        </div>
+        <div class="skill">
+          <h3>Langs</h3>
+          <hr />
+          <p align="left">
+            <img src="https://skillicons.dev/icons?i=python,javascript,typescript,cs,cpp" />
+          </p>
+        </div>
+        <div class="skill">
+          <h3>Skill</h3>
+          <hr />
+          <li>AI/ML: OpenAI API, Scikit-Learn</li>
+        </div>
+        <div class="skill">
+          <h3>협업</h3>
+          <hr />
+          <p align="left">
+            <img src="https://skillicons.dev/icons?i=git,vscode" />
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>프로젝트</h2>
+        <div class="project">
+          <h4>LLM 기반 챗봇</h4>
+          <p>OpenAI API를 활용한 대화형 챗봇 시스템</p>
+          →
+          <a href="https://github.com/your-id/llm-chatbot">GitHub 보기</a>
+        </div>
+        <div class="project">
+          <h4>Muck 스타일 Unity 생존 게임</h4>
+          <p>1인칭 시점에서 자원 채집 및 전투가 가능한 로그라이크 게임</p>
+          <a href="https://github.com/your-id/muck-clone">GitHub 보기</a>
+        </div>
+        <div class="project">
+          <h4>날씨 기반 음악 추천 서비스</h4>
+          <p>MANIADB + YouTube API 기반 추천 스트리밍 서비스</p>
+          <a href="https://github.com/your-id/weather-music">GitHub 보기</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-light">
+      <div class="container">
+        <h2>연락처</h2>
+        <p>Email: ins1500@kunsan.ac.kr</p>
+        <a href="https://github.com/noveeda" target="_blank">
+          <i class="fa-brands fa-github fa-2x"></i>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 최진영. All rights reserved.</p>
+    </footer>
   </body>
 </html>
