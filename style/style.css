@@ -45,6 +45,7 @@ header {
 }
 a {
   text-decoration: none;
+  color: inherit;
 }
 header a {
   color: white;
@@ -70,6 +71,15 @@ section {
   background: white;
   border-left: 4px solid #0d6efd;
   border-radius: 4px;
+}
+.project h4 {
+  display: inline-block;
+}
+.project:hover {
+  transform: scale(1.001);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: all 0.3s ease-out;
 }
 footer {
   background-color: #212529;
