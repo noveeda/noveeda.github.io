@@ -48,7 +48,7 @@ a {
   color: black;
 }
 a:hover {
-  color: #74808a;
+  transform: scale(1.2);
 }
 header a {
   color: white;
@@ -63,9 +63,6 @@ nav a {
   text-decoration: none;
   font-weight: 500;
 }
-nav a:hover {
-  text-decoration: underline;
-}
 section {
   padding: 60px 20px;
 }
@@ -77,6 +74,13 @@ section {
   border-radius: 4px;
   color: black;
 }
+.in-progress {
+  border-left: 4px solid #ffc107;
+}
+.completed {
+  border-left: 4px solid #0d6efd;
+}
+
 .project h4 {
   display: inline-block;
 }
@@ -158,12 +162,43 @@ i {
 li {
   list-style: none;
   display: flex;
+  justify-content: center;
 }
 
 li a {
-  margin-right: 10px;
+  margin: 5px 10px;
+  color: white;
 }
 
 .skills img {
   margin: 5px 2px;
+}
+
+.scroll-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 999;
+}
+
+.scroll-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #0d6efd;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: background 0.2s;
+}
+
+.scroll-btn:hover {
+  background-color: #0b5ed7;
 }

@@ -24,9 +24,13 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <header>
+    <div class="scroll-buttons">
+      <a href="#header" class="scroll-btn">▲</a>
+      <a href="#footer" class="scroll-btn">▼</a>
+    </div>
+    <header id="header">
       <h1><a href="/">최진영</a></h1>
-      <h5>서버 / 게임 / 유저 친화적 개발자</h5>
+      <h5><b>"왜?"</b>에서 시작해 끝까지 만드는 개발자</h5>
       <nav>
         <a href="#about">About</a>
         <a href="#skill">Skill</a>
@@ -46,144 +50,160 @@
       <a href="#about" class="scroll-down">&#8595;</a>
     </header>
 
-    <section id="about">
-      <div class="container">
-        <h2>About</h2>
-        <hr>
-        <div class="about">
-          <img src="증증사.png" alt="">
-          <div class="about-text">
-            <h4>최진영 2003.11.16</h4>
-            <p>
-              사소한 것에도 <strong>"왜?"라는 질문</strong>을 던지는 걸 좋아합니다.<br>
-              단순히 되는 코드를 넘어서, <strong>더 효율적이고 더 나은 방법</strong>을 고민하는 <strong>개발자</strong>입니다.<br>
-              <strong>백엔드</strong>와 <strong>AI 분야</strong>에 흥미가 많고,<br>
-              궁금한 게 생기면 <strong>끝까지 파고들어</strong> 직접 만들고 <strong>실험해보는 걸 즐깁니다</strong>.<br>
-              <strong>오늘보다 더 나은 개발자</strong>가 되기 위해 <strong>꾸준히 배우고</strong> 있습니다.
-            </p>
+    <main>
+      <section id="about">
+        <div class="container">
+          <h2>About</h2>
+          <hr>
+          <div class="about">
+            <img src="증증사.png" alt="">
+            <div class="about-text">
+              <h4>최진영</h4>
+              <p>
+                사소한 것에도 <strong>"왜?"라는 질문</strong>을 던지는 걸 좋아합니다.<br>
+                단순히 되는 코드를 넘어서, <strong>더 효율적이고 더 나은 방법</strong>을 고민하는 <strong>개발자</strong>입니다.<br>
+                <strong>백엔드</strong>와 <strong>AI 분야</strong>에 흥미가 많고,<br>
+                궁금한 게 생기면 <strong>끝까지 파고들어</strong> 직접 만들고 <strong>실험해보는 걸 즐깁니다</strong>.<br>
+                <strong>오늘보다 더 나은 개발자</strong>가 되기 위해 <strong>꾸준히 배우고</strong> 있습니다.
+              </p>
+            </div>
           </div>
-        </div>
-        
-        <h2 class="education-heading">Education</h2>
-        <hr>
-        <div class="education-block">
+          
+          <h3 class="education-heading">Education</h3>
+          <hr>
+          <div class="education-block">
             <h3><a href="https://www.kunsan.ac.kr/">국립군산대학교</a></h3>
             <span class="education-date">2021 - 2027년 2월</span>
             
             <h4>컴퓨터정보공학전공 학사과정 (2021.03 ~ 현재)</h4>
-        </div>
-      </div>
-    </section>
-
-    <section id="skill" class="bg-light">
-      <div class="container skills">
-        <h2>Skills</h2>
-        <div>
-          <h3>Langs</h3>
-          <hr />
-          <p>
-            <img src="https://skillicons.dev/icons?i=python&theme=light" />
-            <img src="https://skillicons.dev/icons?i=javascript&theme=light" />
-            <img src="https://skillicons.dev/icons?i=cpp&theme=light" />
-            <img src="https://skillicons.dev/icons?i=cs&theme=light" />
-          </p>
-        </div>
-        <div>
-          <h3>Framework</h3>
-          <hr />
-          <p>
-            <img src="https://skillicons.dev/icons?i=nodejs&theme=light" />
-            <img src="https://skillicons.dev/icons?i=spring&theme=light" />
-            <img src="https://skillicons.dev/icons?i=mysql&theme=dark" />
-          </p>
-        </div>
-        <div>
-        <div>
-          <h3>Game/Tools</h3>
-          <hr />
-          <p>
-            <img src="https://skillicons.dev/icons?i=unity&theme=light" />
-            <img src="https://skillicons.dev/icons?i=blender&theme=light" />
-          </p>
-        </div>
-        <div>
-          <h3>Team</h3>
-          <hr/>
-          <p>
-            <img src="https://skillicons.dev/icons?i=git&theme=light" />
-            <img src="https://skillicons.dev/icons?i=vscode&theme=light" />
-            <img src="https://skillicons.dev/icons?i=postman&theme=light" />
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects">
-      <div class="container">
-        <h2>Projects</h2>
-        <a href="https://github.com/noveeda/Wild" target="_blank">
-          <div class="project">
-            <h4>Muck 스타일 Unity 생존 게임</h4>
-            <i class="fa-brands fa-github fa-2x github-icon"></i>
-            <p>1인칭 시점에서 자원 채집 및 전투가 가능한 로그라이크 게임</p>
-            <h5>개발 기간</h5>
-            <p>2025-04-29 ~ 현재 진행중</p>
-            <h5>사용 기술 스택</h5>
-            <p>
-              <img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white" alt="">
-              <img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" alt="">
-              <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" alt="">
-              <img src="" alt="">
-              <img src="" alt="">
-            </p>
           </div>
-        </a>
-        <a href="http://github.com/noveeda/db-express">
-          <div class="project">
-            <h4>MariaDB + Express 기반 게시판</h4>
-            <i class="fa-brands fa-github fa-2x github-icon"></i>
-            <p>
-              MariaDB와 Express.js를 사용하여 게시판 기능을 구현한 프로젝트. <br>
-              게시글 작성, 수정, 삭제, 조회 기능을 제공하며, 사용자 인증 및 권한 관리 기능도 포함되어 있습니다.
-            </p>
-            <h5>개발 기간</h5>
-            <p>2025-04-03 ~ 2025-04-13</p>
-            <h5>사용 기술 스택</h5>
-            <p>
-              <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="">
-              <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="">
-              <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="">
-              <img src="https://img.shields.io/badge/Pug-%23bababa?style=for-the-badge&logo=pug&logoColor=A86454" alt="">
-              <img src="https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD" alt="">
-              <img src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white" alt="">
-              <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="">
-              <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="">
-              <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="">
-            </p>
-          </div>
-        </a>
-      </div>
-    </section>
+        </div>
+      </section>
       
-    <section id="contact" class="bg-light">
-      <div class="container">
-        <h2>연락처</h2>
-        <p>Email: ins1500@kunsan.ac.kr</p>
-        <li>
-          <a href="https://github.com/noveeda" target="_blank">
-            <i class="fa-brands fa-github fa-2x github-icon"></i>
-          </a>
-          <a href="https://velog.io/@j_zero/posts" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 192 192">
-              <path fill-rule="evenodd" d="M24 0h144c13.255 0 24 10.745 24 24v144c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V24C0 10.745 10.745 0 24 0Zm25 57.92v7.56h18l13.68 77.04 17.82-1.26c17.52-22.2 29.34-38.82 35.46-49.86 6.24-11.16 9.36-20.46 9.36-27.9 0-4.44-1.32-7.8-3.96-10.08-2.52-2.28-5.7-3.42-9.54-3.42-7.2 0-13.2 3.06-18 9.18 4.68 3.12 7.86 5.7 9.54 7.74 1.8 1.92 2.7 4.5 2.7 7.74 0 5.4-1.62 11.52-4.86 18.36-3.12 6.84-6.54 12.9-10.26 18.18-2.4 3.36-5.46 7.5-9.18 12.42L88.06 57.2c-.96-4.8-3.96-7.2-9-7.2-2.28 0-6.66.96-13.14 2.88-6.48 1.8-12.12 3.48-16.92 5.04Z" clip-rule="evenodd"></path>
-            </svg>
-          </a>
-        </li>
-      </div>
-    </section>
+      <section id="skill" class="bg-light">
+        <div class="container skills">
+          <h2>Skills</h2>
+          <div>
+            <h3>Langs</h3>
+            <hr />
+            <p>
+              <img src="https://skillicons.dev/icons?i=python&theme=light" />
+              <img src="https://skillicons.dev/icons?i=javascript&theme=light" />
+              <img src="https://skillicons.dev/icons?i=cpp&theme=light" />
+              <img src="https://skillicons.dev/icons?i=cs&theme=light" />
+            </p>
+          </div>
+          <div>
+            <h3>Framework</h3>
+            <hr />
+            <p>
+              <img src="https://skillicons.dev/icons?i=nodejs&theme=light" />
+              <img src="https://skillicons.dev/icons?i=spring&theme=light" />
+              <img src="https://skillicons.dev/icons?i=mysql&theme=dark" />
+            </p>
+          </div>
+          <div>
+            <div>
+              <h3>Game/Tools</h3>
+              <hr />
+              <p>
+                <img src="https://skillicons.dev/icons?i=unity&theme=light" />
+                <img src="https://skillicons.dev/icons?i=blender&theme=light" />
+              </p>
+            </div>
+            <div>
+              <h3>Team</h3>
+              <hr/>
+              <p>
+                <img src="https://skillicons.dev/icons?i=git&theme=light" />
+                <img src="https://skillicons.dev/icons?i=vscode&theme=light" />
+                <img src="https://skillicons.dev/icons?i=postman&theme=light" />
+              </p>
+            </div>
+          </div>
+        </section>
+        
+        <section id="projects">
+          <div class="container">
+            <div style="display: flex; align-items: center; gap: 10px; margin-top: 8px;">
+              <h2>Projects</h2>
+              <div style="display: flex; align-items: center; gap: 5px;">
+                <div style="width: 16px; height: 6px; background-color: #007bff; border-radius: 2px;"></div>
+                <span style="font-size: 0.9rem;">완료</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 5px;">
+                <div style="width: 16px; height: 6px; background-color: #ffc107; border-radius: 2px;"></div>
+                <span style="font-size: 0.9rem;">진행중</span>
+              </div>
+            </div>
 
-    <footer>
-      <p>&copy; 2025 최진영. All rights reserved.</p>
-    </footer>
-  </body>
-</html>
+            <a href="https://github.com/noveeda/Wild" target="_blank">
+              <div class="project in-progress">
+                <h4>Muck 스타일 Unity 생존 게임</h4>
+                <i class="fa-brands fa-github fa-2x github-icon"></i>
+                <p>1인칭 시점에서 자원 채집 및 전투가 가능한 로그라이크 게임</p>
+                <h5>개발 기간</h5>
+                <p>2025-04-29 ~ 현재 진행중</p>
+                <h5>사용 기술 스택</h5>
+                <p>
+                  <img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white" alt="">
+                  <img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" alt="">
+                  <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" alt="">
+                  <img src="" alt="">
+                  <img src="" alt="">
+                </p>
+              </div>
+            </a>
+            <a href="http://github.com/noveeda/db-express">
+              <div class="project completed">
+                <h4>MariaDB + Express 기반 게시판</h4>
+                <i class="fa-brands fa-github fa-2x github-icon"></i>
+                <p>
+                  MariaDB와 Express.js를 사용하여 게시판 기능을 구현한 프로젝트. <br>
+                  게시글 작성, 수정, 삭제, 조회 기능을 제공하며, 사용자 인증 및 권한 관리 기능도 포함되어 있습니다.
+                </p>
+                <h5>개발 기간</h5>
+                <p>2025-04-03 ~ 2025-04-13</p>
+                <h5>사용 기술 스택</h5>
+                <p>
+                  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="">
+                  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="">
+                  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="">
+                  <img src="https://img.shields.io/badge/Pug-%23bababa?style=for-the-badge&logo=pug&logoColor=A86454" alt="">
+                  <img src="https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD" alt="">
+                  <img src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white" alt="">
+                  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="">
+                  <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="">
+                  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="">
+                </p>
+              </div>
+            </a>
+          </div>
+        </section>
+        
+        <section id="contact" class="bg-light">
+          <div class="container">
+            
+          </div>
+        </section>
+      </main>
+        
+        <footer id="footer">
+            <h2>Contact</h2>
+            <p>개발 관련 문의는 아래 이메일로 연락주세요.</p>
+          <p>&copy; 2025 최진영. All rights reserved.</p>
+            <p>Email: ins1500@kunsan.ac.kr</p>
+            <li>
+              <a href="https://github.com/noveeda" target="_blank">
+                <i class="fa-brands fa-github fa-2x"></i>
+              </a>
+              <a href="https://velog.io/@j_zero/posts" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 192 192">
+                  <path fill-rule="evenodd" d="M24 0h144c13.255 0 24 10.745 24 24v144c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V24C0 10.745 10.745 0 24 0Zm25 57.92v7.56h18l13.68 77.04 17.82-1.26c17.52-22.2 29.34-38.82 35.46-49.86 6.24-11.16 9.36-20.46 9.36-27.9 0-4.44-1.32-7.8-3.96-10.08-2.52-2.28-5.7-3.42-9.54-3.42-7.2 0-13.2 3.06-18 9.18 4.68 3.12 7.86 5.7 9.54 7.74 1.8 1.92 2.7 4.5 2.7 7.74 0 5.4-1.62 11.52-4.86 18.36-3.12 6.84-6.54 12.9-10.26 18.18-2.4 3.36-5.46 7.5-9.18 12.42L88.06 57.2c-.96-4.8-3.96-7.2-9-7.2-2.28 0-6.66.96-13.14 2.88-6.48 1.8-12.12 3.48-16.92 5.04Z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </li>
+        </footer>
+      </body>
+      </html>
+      
