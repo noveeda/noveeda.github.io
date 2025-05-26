@@ -167,7 +167,3 @@ li a {
 .skills img {
   margin: 5px 2px;
 }
-.skills img:hover {
-  transform: rotate3d(0, 1, 1, 360deg);
-  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
