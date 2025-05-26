@@ -45,12 +45,17 @@ header {
 }
 a {
   text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #74808a;
 }
 header a {
   color: white;
 }
 nav {
   margin-top: 30px;
+  display: flex;
 }
 nav a {
   margin: 0 15px;
@@ -95,7 +100,7 @@ footer {
 }
 .education-block {
   max-width: 800px;
-  margin: 0 auto 30px auto;
+  margin: 50px auto 30px;
   padding: 15px;
   border: 1px solid #dcd9d9;
   text-align: left;
@@ -128,4 +133,41 @@ svg {
 }
 .github-icon {
   color: #333;
+}
+
+i {
+  margin: 0 5px 0 5px;
+}
+.about {
+  height: 100%;
+  margin-top: 30px;
+  height: 300px;
+  display: flex;
+}
+
+.about img {
+  border: #dcd9d9 1px solid;
+  border-radius: 10px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+.about-text {
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+}
+li {
+  list-style: none;
+  display: flex;
+}
+
+li a {
+  margin-right: 10px;
+}
+
+.skills img {
+  margin: 5px 2px;
+}
+.skills img:hover {
+  transform: rotate3d(0, 1, 1, 360deg);
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
