@@ -203,3 +203,13 @@ li a {
 .scroll-btn:hover {
   background-color: #0b5ed7;
 }
+
+.mailto {
+  color: white;
+  text-decoration: none;
+}
+
+.mailto:hover {
+  color: #4dff07;
+  text-decoration: underline;
+}
